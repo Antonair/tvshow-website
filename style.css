@@ -1,9 +1,13 @@
+* {
+    font-family: 'Lato','Open Sans','Helvetica Neue','Arial','San-serif';
+}
+
 #nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #274e8c;
 }
 
 .nav_link {
@@ -19,7 +23,7 @@
 }
 
 .nav_link a:hover {
-    background-color: #111;
+    background-color: #1e3d70;
 }
 
 table {
@@ -33,4 +37,24 @@ th {
 td, th {
     text-align: left;
     padding: 8px;
+}
+
+#ribbon h1 {
+    margin: 0;
+    padding: 0.3em;
+    background-color: aquamarine;
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    font-size: 51px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Gill Sans, Verdana;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    Color: #444;
 }
